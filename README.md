@@ -6,30 +6,21 @@ Analyzing Amazon reviews written by members of the paid Amazon Vine program. The
 
 ## Results:
 
-- I have filtered the data frame with helpful votes and found total records 59221
-![filter_all_vine.png](https://github.com/deepayogesh/Amazon_Vine_Analysis/blob/ad76632a7c3885598de0e089a3f43dc217d76342/image/filter_all_vine.png)
+- Total not paid reviews were 62028 out of them 29982 were five star reviews. 
+Percentage of not paid reviews were 48% 
+![percent_five_star_vine_not_paid.png](https://github.com/deepayogesh/Amazon_Vine_Analysis/blob/66fad4353e91f9b2438c244ee358e80afa2717ac/image/percent_five_star_vine_not_paid.png)
+ 
+- Total paid reviews were 1266 out of them 432 were five star reviews. 
+Percentage of paid reviews were 34% 
+![percent_five_star_vine_paid.png](https://github.com/deepayogesh/Amazon_Vine_Analysis/blob/66fad4353e91f9b2438c244ee358e80afa2717ac/image/percentage_five_star_paid.png)
 
-- I found the Vine reviews total vine reviews were 410 records with five-star ratings.
-![vine_reviews_y.png](https://github.com/deepayogesh/Amazon_Vine_Analysis/blob/ad76632a7c3885598de0e089a3f43dc217d76342/image/vine_reviews_y.png)
 
-- Percentage of the vine reviews were 410 is what % of 28453 = 1.44% 
-- I found the non-Vine reviews total vine reviews were 28043 records  with five-star ratings.
-![non-vine-n_reviews.png](https://github.com/deepayogesh/Amazon_Vine_Analysis/blob/ad76632a7c3885598de0e089a3f43dc217d76342/image/non-vine-n_reviews.png)
-
-- Percentage of the non-vine reviews were 28043 is what % of 28453 = 98.56%
 
 ## Summary: 
 
-Data indicates that there are only 1.4% 5 star paid reviews and remaining 98% are unpaid reviews. 
-Comparison between five star and less than five-star reviews show consistent trend.
-Therefore, it can be concluded that reviews by vines are not biased.  
-
-I have confirmed the similar analysis for the data where reviews were less than 5. 
-![lesstan5star.png](https://github.com/deepayogesh/Amazon_Vine_Analysis/blob/ad76632a7c3885598de0e089a3f43dc217d76342/image/lesstan5star.png)
-
-And non-filtered data total vine records 
-![all_vine_5star.png](https://github.com/deepayogesh/Amazon_Vine_Analysis/blob/ad76632a7c3885598de0e089a3f43dc217d76342/image/all_vine_5star.png)
-
+Percentage values of paid and not paid reviews shows were almost close to similar. 
+This clearly indicated that there is no bias found for reviews in the Vine program. 
 
 It proves that trend is consistent whether reviewers are paid or Unpaid.
 
+Similar analysis can also be done for the review ratings other than 5. 
